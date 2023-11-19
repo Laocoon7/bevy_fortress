@@ -1,6 +1,6 @@
 [package]
 name = "bevy_fortress"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["Wes Feldsine <laocoon7@gmail.com>"]
 edition = "2021"
 license = "MIT OR Apache-2.0"
@@ -11,3 +11,14 @@ homepage = "https://github.com/Laocoon7/bevy_fortress"
 keywords = ["helper"]
 categories = ["game-development"]
 readme = "./README.md"
+
+[dependencies]
+bevy = { version = "0.12", default-features = false, features = ["bevy_asset", "bevy_sprite", "serialize"] } # A refreshingly simple data-driven game engine and app framework
+serde = { version = "1.0", features = ["derive"] } # A generic serialization/deserialization framework
+ron = { version = "0.8", features = ["integer128"] } # Rusty Object Notation
+toml = "0.8" # A native Rust encoder and decoder of TOML-formatted files and streams
+rand = { version = "0.8" }
+anyhow = { version = "1.0" } # Flexible concrete Error type built on std::error::Error
+thiserror = { version = "1" } # This library provides a convenient derive macro for the standard library's std::error::Error trait.
+lazy_static = { version = "1.4" } # A macro for declaring lazily evaluated statics in Rust.
+bitflags = "2.3" # A macro to generate structures which behave like bitflags.
