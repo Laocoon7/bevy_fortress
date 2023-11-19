@@ -1,0 +1,13 @@
+[package]
+name = "bevy_fortress"
+version = "0.0.0"
+authors = ["Wes Feldsine <laocoon7@gmail.com>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "My personal helper library for Bevy"
+repository = "https://github.com/Laocoon7/bevy_fortress"
+homepage = "https://github.com/Laocoon7/bevy_fortress"
+# documentation
+keywords = ["helper"]
+categories = ["game-development"]
+readme = "./README.md"
