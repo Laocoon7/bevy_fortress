@@ -1,3 +1,5 @@
+pub mod shapes;
+
 // These objects were taken and modified from https://github.com/gridbugs under the MIT license
 mod coord;
 pub use self::coord::*;

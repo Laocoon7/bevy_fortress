@@ -14,7 +14,7 @@ use rand::{
 };
 use serde::{Deserialize, Serialize};
 
-pub use super::{Axis, Coord};
+use crate::{prelude::*, grid::coord::Axis};
 
 pub const NUM_DIRECTIONS: usize = 8;
 pub const NUM_CARDINAL_DIRECTIONS: usize = 4;

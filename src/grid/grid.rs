@@ -8,7 +8,7 @@ use std::{
 use bevy::prelude::*;
 use serde::{Deserialize, Serialize};
 
-pub use super::{Coord, Size};
+use crate::prelude::*;
 
 pub type CoordIter = super::CoordIterRowMajor;
 pub type EdgeCoordIter = super::EdgeIter;

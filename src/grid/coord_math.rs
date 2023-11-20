@@ -1,6 +1,6 @@
 use core::ops::{Add, AddAssign, Div, DivAssign, Mul, MulAssign, Neg, Sub, SubAssign};
 
-use super::{Coord, Size};
+use crate::prelude::*;
 
 impl Neg for Coord {
     type Output = Coord;
